@@ -1,0 +1,334 @@
+body {
+	margin: 0;
+	padding-top: 0;
+	width: 100%;
+	height: 100vh;
+	display: table;
+	font-family: 'Futura PT', 'Helvetica Neue', sans-serif;
+}
+
+#top-rect {
+    background-color: #b25b6e;
+    width: 100%;
+    height: 20px;
+    position: fixed;
+    top: 0px;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.nav-bar {
+	position: fixed;
+	top: 20px;
+	width: 100%;
+	height: 40px;
+	background-color: white;
+	z-index: 9999;
+}
+
+.nav-bar li {
+	float: left;
+	width: 20%;
+}
+
+.nav-bar a {
+	display: block;
+	color: grey;
+	text-align: center;
+	margin: 0 10%;
+	padding: 10px 0;
+	text-decoration: none;
+	font-size: 18px;
+}
+
+.nav-bar a:hover {
+	color: #99B898;
+}
+
+.nav-bar a.selected {
+	color: #99B898;
+}
+
+#logo {
+	transform: scale(0.5, 0.5);
+	position: relative;
+	top: -71px;
+}
+
+#initials {
+	color: grey;
+}
+
+@media screen and (max-width: 600px)
+{
+	.nav-bar a {
+		font-size: 14px;
+	}    
+}
+
+h1 {
+	margin: 200px 0 0 0;
+	font-size: 80px;
+	text-align: center;
+	color: #b25b6e;
+	font-family: 'Lobster', 'Futura PT', 'Helvetica Neue', sans-serif;
+	font-weight: 400;
+}
+
+.qualities {
+	text-align: center;
+	margin: 10px 0;
+}
+
+.qitem {
+	display: inline-block;
+	margin: 0 10px;
+	text-align: center;
+	color: grey;
+	font-size: 16px;
+}
+
+.dot {
+	height: 8px;
+	width: 8px;
+	background-color: #99B898;
+	border-radius: 50%;
+	display: inline-block;
+ }
+
+.main-intro {
+	width: 70%;
+	margin: 100px 15% 0 15%;
+}
+
+.main-intro p {
+	font-size: 16px;
+	line-height: 25px;
+}
+
+.about-me {
+	width: 70%;
+	margin: 50px 15% 0 15%;
+}
+
+.about-me h3 {
+	font-size: 24px;
+	font-weight: 400;
+	color: grey;
+}
+
+.about-me p {
+	font-size: 16px;
+	line-height: 25px;
+}
+
+.about-me a {
+	text-decoration: none;
+}
+
+.img-section {
+	width: 70%;
+	margin: 50px 15% 0 15%;
+	text-align: center;
+}
+
+.img-section p {
+	width: 80%;
+	margin: 2% 10% 0 10%;
+	text-align: center;
+	font-size: 13px;
+	color: grey;
+}
+
+.main-img {
+	width: 100%;
+	height: 100%;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.funfacts {
+	width: 70%;
+	margin: 50px 15% 0 15%;
+}
+
+.funfacts h3 {
+	font-size: 24px;
+	font-weight: 400;
+	color: grey;
+}
+
+.funfacts p {
+	font-size: 16px;
+	line-height: 25px;
+}
+
+.funfacts a {
+	text-decoration: none;
+}
+
+#design-colour {
+	color: #99B898;
+}
+
+#contact hr {
+	width: 100%;
+	height: 1px;
+	background-color: #b25b6e;
+	border:none;
+	margin: 40px 0 0 0;
+}
+
+.experience-header {
+	font-size: 40px;
+	font-weight: bold;
+	color: #b25b6e;
+}
+
+.experience-intro {
+	width: 70%;
+	margin: 150px 15% 0 15%;
+}
+
+.experience-intro a {
+	text-decoration: none;
+}
+
+.experience-intro p {
+	font-size: 16px;
+	line-height: 25px;
+}
+
+.experience-content {
+	width: 70%;
+	margin: 50px 15% 0 15%;
+}
+
+.experience-content img {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.experience-content hr {
+	width: 100%;
+	height: 1px;
+	background-color: #b25b6e;
+	border:none;
+	margin: 0 0 50px 0;
+}
+
+.experience-content .subheader {
+	font-size: 24px;
+	font-weight: 400;
+	color: grey;
+}
+
+.experience-content p {
+	font-size: 16px;
+	line-height: 25px;
+}
+
+.experience-content .section-summary {
+	color: #99B898;
+}
+
+#contact {
+  overflow: hidden;
+  text-align:center;
+  margin-top: 40px;
+  width: 100%;
+  display: table-row;
+  height: 0;
+}
+
+#contact .link {
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  width: 3%;
+  margin: 1% 2%;
+  }
+
+.disclaimer {
+	vertical-align: middle;
+	color: grey;
+	font-size: 12px;
+	margin: 1% 2%;
+}
+
+.contact-intro {
+	width: 70%;
+	margin: 150px 15% 0 15%;
+}
+
+.contact-me-invite {
+	width: 70%;
+	margin: 150px 15% 0 15%;
+	font-size: 24px;
+	line-height: 32px;
+	font-weight: bold;
+	color: grey;
+}
+
+.contact-me-invite p {
+	margin: 0;
+}
+
+#chat-welcome {
+	color: #99B898;
+}
+
+.contact-section {
+	width: 70%;
+	margin: 40px 15% 0 15%;
+}
+
+.conact-section p {
+	font-size: 16px;
+	line-height: 25px;
+}
+
+.contact-header {
+	font-size: 40px;
+	font-weight: bold;
+	color: #b25b6e;
+}
+
+.contact-all-links {
+	display: block;
+	width: 70%;
+	margin: 40px 15% 0 15%;
+  }
+
+.contact-all-links .contact-link {
+	width: 100%;
+	margin: 20px 0 0 0;
+  }
+
+.contact-all-links .icon {
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+}
+
+.contact-all-links .link-text {
+	display: inline;
+	margin-left: 10px;
+	font-size: 16px;
+	line-height: 40px;
+	vertical-align: top;
+	text-decoration: none;
+	color: black;
+}
+
+.contact-link a:hover {
+	color: #99B898;
+}
+
